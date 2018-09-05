@@ -1,5 +1,6 @@
 //included libraries
 #include <stdlib.h> //standard library
+#include <iostream> //input and output library
 
 
 //entry point for our program
@@ -7,6 +8,10 @@
 
 int main()
 {
+
+	std::cout << "Hello World " << std::endl; //<< you can chain these(<<) infinitely
+
+
 
 	//this system function will wait for user to press a key before continuing. 
 	system("PAUSE");
